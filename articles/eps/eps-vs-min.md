@@ -7,7 +7,7 @@ In contrast, The Minimum Positive Number:
 * Is the *minimum number* that can be expressed in a particular system.
 * As such, it must have **both** *the least exponent possible*, **and** *the machine epsilon* in its mantissa.
 
-Difference in algorithm:  
+### Difference in algorithm:  
 **Machine Epsilon**
 ```python
 python 3
