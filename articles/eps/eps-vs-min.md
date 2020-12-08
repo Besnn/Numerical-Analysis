@@ -1,6 +1,6 @@
 # Epsilon macchina vs Minimum Positive Number
 What Machine Epsilon is:
-* The *maximum relative error* between two numbers in a given system (by definition of IEEE754 it is the absolute difference between 1 and the next number).
+* The *maximum relative error* between two numbers in a given system (by definition of [**IEEE754**](https://www.wikiwand.com/en/IEEE_754) it is the absolute difference between 1 and the next number).
 * *Exponent-agnostic* (it expresses the maximum relative error for every two numbers you perform operations on).
 
 In contrast, The Minimum Positive Number:
