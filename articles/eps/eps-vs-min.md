@@ -10,6 +10,7 @@ In contrast, The Minimum Positive Number:
 Difference in algorithm:  
 **Machine Epsilon**
 ```python
+# python 3
 ε = 1.0
 b = 2 # base - since computers use binary numbers b = 2
 while 1.0 + ε/b != 1.0:
@@ -18,6 +19,7 @@ print(ε)
 ```
 **Minimum Value**
 ```javascript
+ECMAscript 6
 mv = 1.0
 b = 2 // same logic as before
 while (mv/2 != 0) mv = mv/2
