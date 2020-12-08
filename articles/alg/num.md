@@ -3,7 +3,6 @@
 > ![rappr](http://www.sciweavers.org/tex2img.php?eq=%24%28a_ma_%7Bm-1%7D...a_1a_0%29_%20%5Cbeta%24%20with%20%24i%20%3D%201...m%24%20and%20%240%20%5Cleq%20a_i%20%3C%20%5Cbeta%24&bc=White&fc=Black&im=png&fs=30&ff=modern&edit=0)
 ### Real Numbers
 > ![rappr2](http://www.sciweavers.org/tex2img.php?eq=%20%24%5Cpm%200.a_1a_2...a_m%5Cbeta%5Eb%24%20such%20that%20%24a_1%20%20%5Cneq%200%24%20and%20%24m%20%5Cleq%20%5Cinfty%24&bc=White&fc=Black&im=png&fs=30&ff=modern&edit=0)  
-> ![img](http://www.sciweavers.org/tex2img.php?eq=%20%24%5Cpm%200.a_1a_2...a_m%5Cbeta%5Eb%24%20such%20that%20%24a_1%20%20%5Cneq%200%24%20and%20%24m%20%5Cleq%20%5Cinfty%24&bc=White&fc=Black&im=png&fs=30&ff=modern&edit=0)
 
 The string of **a**s is called the `mantissa`, while **b** is the `characteristic`.
 #### Note
