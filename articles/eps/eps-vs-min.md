@@ -22,6 +22,6 @@ print(ε)
 ECMAscript 6
 mv = 1.0
 b = 2 // same logic as before
-while (mv/2 != 0) mv = mv/2
+while (mv/b != 0) mv = mv/b
 console.log(mv)
 ```
