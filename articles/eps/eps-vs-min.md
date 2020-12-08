@@ -10,7 +10,7 @@ In contrast, The Minimum Positive Number:
 Difference in algorithm:  
 **Machine Epsilon**
 ```python
-# python 3
+python 3
 ε = 1.0
 b = 2 # base - since computers use binary numbers b = 2
 while 1.0 + ε/b != 1.0:
