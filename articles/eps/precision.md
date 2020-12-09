@@ -24,10 +24,9 @@ The quantity on the right hand side is often refered to as *machine epsilon*.
 ### Important Note
 When performing operations on floating-point numbers, computers use **specialized registers** to hold temporary values. These register have more than the usual `m` bits the machine uses to store numbers in memory. This is to minimize any eventual errors.
 ## Floating-Point Operations
-When performing operations on floating-point numbers, the result may not be a floating-point number. Hence by definition in finite arithmetic:  
-**⊚ denotes operation ◌ in floating-point arithmetic  
-`e.g` x ⊕ y := fl(fl(x) + fl(y))  
-x ⊚ y := fl(fl(x) ◌ fl(y))**  
+When performing operations on floating-point numbers, the result may not be a floating-point number. Hence, in finite arithmetic:  
+
+![prop](https://quicklatex.com/cache3/91/ql_a6c72b86bf36f4be0778bdc408b2c591_l3.png)  
 
 ### Sum
 1. Rewrite the number with the least characteristic so that its characteristic is the same as the other's.
@@ -65,11 +64,17 @@ relative_error = |x - fl(x)|/|x| = |x - x(1 + ϵ)|/|x| = |xϵ|/|x| = |ϵ|
 -- so |ϵ| is surely less than or equal to machine epsilon.
 ```
 With that in mind, we can calculate the error in a given operation.  
-#### Product
+### Product
 For **x1 ⊗ x2**:  
 
 ![product](https://quicklatex.com/cache3/1e/ql_a6ab36d90fb4802838c258f6831b7b1e_l3.png)
-#### Division
+### Division
 For **x1 ⊘ x2**:  
 
 ![division](https://quicklatex.com/cache3/fe/ql_702c598930ed43df3cafd83b87e3f0fe_l3.png)
+### Sum
+For **x1 ⊕ x2** or **x1 ⊖ x2**:
+
+![sum](https://quicklatex.com/cache3/75/ql_507f16a707663c36dea529b3e66db275_l3.png)
+#### Note
+Notice that the expression dictates that there exist arguments such that `x1 + x2 ~ 0`. This implies the relative error is be greatly amplified.
