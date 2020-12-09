@@ -51,7 +51,7 @@ Let **(B, m, A)** be a triple such that:
 * **A** is either `Trunc` or `Round,`  
 
 then this triple defines the finite arithmetic on Rational Numbers in a given system, **B** acting as the base and **m** as the length of mantissa. `Trunc/Round` denote the mode of approximation.
-## Important Consequences of Finite Arithmetic
+## Equality
 Due to lack of precision, the concept of **equality** is not the same in finite arithmetic as it is with real numbers:  
-![equ](https://quicklatex.com/cache3/21/ql_5433b84861e7f4d205c2761fffa6e721_l3.png)  
-where `ε` is the *machine precision* or *machine epsilon*
+![equ](https://quicklatex.com/cache3/1b/ql_7e877a72a03b751a4588ed98dad3af1b_l3.png)   
+where `ε` is the *tolerance*, which depends on *machine precision (β^(1-m))*.
