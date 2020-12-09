@@ -24,12 +24,11 @@ The quantity on the right hand side is often refered to as *machine epsilon*.
 ### Important Note
 When performing operations on floating-point numbers, computers use **specialized registers** to hold temporary values. These register have more than the usual `m` bits the machine uses to store numbers in memory. This is to minimize any eventual errors.
 ## Floating-Point Operations
-When performing operations on floating-point numbers, the result may not be a floating-point number. Hence by definition in finite arithmetic:
-```lua
--- ⊚ denotes operation ◌ in floating-point arithmetic
--- e.g x ⊕ y := fl(fl(x) + fl(y))
-x ⊚ y := fl(fl(x) ◌ fl(y))
-```
+When performing operations on floating-point numbers, the result may not be a floating-point number. Hence by definition in finite arithmetic:  
+⊚ denotes operation ◌ in floating-point arithmetic  
+`e.g` x ⊕ y := fl(fl(x) + fl(y))  
+x ⊚ y := fl(fl(x) ◌ fl(y))  
+
 ### Sum
 1. Rewrite the number with the least characteristic so that its characteristic is the same as the other's.
 2. Sum the *mantissa*s.
@@ -67,7 +66,10 @@ relative_error = |x - fl(x)|/|x| = |x - x(1 + ϵ)|/|x| = |xϵ|/|x| = |ϵ|
 ```
 With that in mind, we can calculate the error in a given operation.  
 #### Product
-For `x1 ⊗ x2`:  
+For **x1 ⊗ x2**:  
 
 ![product](https://quicklatex.com/cache3/1e/ql_a6ab36d90fb4802838c258f6831b7b1e_l3.png)
 #### Division
+For **x1 ⊘ x2**:  
+
+![division](https://quicklatex.com/cache3/fe/ql_702c598930ed43df3cafd83b87e3f0fe_l3.png)
