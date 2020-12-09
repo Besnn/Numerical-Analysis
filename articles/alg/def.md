@@ -11,7 +11,8 @@ An algorithm must satisfy two fundamental requirements for it to be considered a
 * Optimality
 ## Horner's Method
 ### What it is and why it is important
-> ![pn](http://www.sciweavers.org/tex2img.php?eq=P_n%28x%29%20%3D%20%20%5Csum_%7Bi%3D0%7D%5En%20%5Calpha_i%20x%5En%20&bc=White&fc=Black&im=png&fs=30&ff=modern&edit=0)  
+> ![pn](https://quicklatex.com/cache3/aa/ql_7b4bd908abe64d98ce46d55f0d4ebfaa_l3.png)  
+
 Horner's Method (or Algorithm) is a method for evaluating polynomials.  
 It is very efficent. Why? The standard algebric way to evaluating polynomials looks something like this:  
 
