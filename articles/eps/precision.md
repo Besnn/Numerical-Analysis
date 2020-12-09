@@ -26,7 +26,7 @@ When performing operations on floating-point numbers, computers use **specialize
 ## Floating-Point Operations
 When performing operations on floating-point numbers, the result may not be a floating-point number. Hence, in finite arithmetic:  
 
-![prop](https://quicklatex.com/cache3/91/ql_a6c72b86bf36f4be0778bdc408b2c591_l3.png)  
+![prop](https://quicklatex.com/cache3/ba/ql_3dfcd2ac91b672666305ac1c74c5ccba_l3.png)  
 
 ### Sum
 1. Rewrite the number with the least characteristic so that its characteristic is the same as the other's.
