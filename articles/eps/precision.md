@@ -25,7 +25,7 @@ The quantity on the right hand side is often refered to as *machine epsilon*.
 When performing operations on floating-point numbers, computers use **specialized registers** to hold temporary values. These register have more than the usual `m` bits the machine uses to store numbers in memory. This is to minimize any eventual errors.
 ## Floating-Point Operations
 When performing operations on floating-point numbers, the result may not be a floating-point number. Hence by definition in finite arithmetic:
-```c#
+```lua
 -- [o] denotes operation o in floating-point arithmetic
 x [o] y := fl(fl(x) o fl(y))
 ```
@@ -53,5 +53,19 @@ Let **(B, m, A)** be a triple such that:
 then this triple defines the finite arithmetic on Rational Numbers in a given system, **B** acting as the base and **m** as the length of mantissa. `Trunc/Round` denote the mode of approximation.
 ## Equality
 Due to lack of precision, the concept of **equality** is not the same in finite arithmetic as it is with real numbers:  
-![equ](https://quicklatex.com/cache3/1b/ql_7e877a72a03b751a4588ed98dad3af1b_l3.png)   
-where `ε` is the *tolerance*, which depends on *machine precision (β^(1-m))*.
+![equ](https://quicklatex.com/cache3/7a/ql_79bbfc0dd9681010ae5c79dfaca07c7a_l3.png)   
+where `ε` is the *tolerance*, which depends on *machine precision* `β^(1-m)`.
+## Considerations
+The floating of a number can be expressed in terms of the real number as:  
+```lua
+fl(x) = x + δ = x(1 + ϵ)
+-- this yields:
+relative_error = |x - fl(x)|/|x| = |x - x(1 + ϵ)|/|x| = |xϵ|/|x| = |ϵ|
+-- relative error is less than or equal to machine precision by definition
+-- so |ϵ| is surely less than or equal to machine epsilon.
+```
+With that in mind, we can calculate the error in a given operation.  
+#### Product
+For `x1 [*] x2`:  
+![product](https://quicklatex.com/cache3/1e/ql_a6ab36d90fb4802838c258f6831b7b1e_l3.png)
+#### Division
