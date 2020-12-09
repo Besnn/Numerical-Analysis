@@ -67,5 +67,6 @@ relative_error = |x - fl(x)|/|x| = |x - x(1 + ϵ)|/|x| = |xϵ|/|x| = |ϵ|
 With that in mind, we can calculate the error in a given operation.  
 #### Product
 For `x1 [*] x2`:  
+
 ![product](https://quicklatex.com/cache3/1e/ql_a6ab36d90fb4802838c258f6831b7b1e_l3.png)
 #### Division
