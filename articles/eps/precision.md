@@ -26,8 +26,8 @@ When performing operations on floating-point numbers, computers use **specialize
 ## Floating-Point Operations
 When performing operations on floating-point numbers, the result may not be a floating-point number. Hence by definition in finite arithmetic:
 ```lua
--- [○] denotes operation ○ in floating-point arithmetic
-x [○] y := fl(fl(x) ○ fl(y))
+-- [◌] denotes operation ◌ in floating-point arithmetic
+x [◌] y := fl(fl(x) ◌ fl(y))
 ```
 ### Sum
 1. Rewrite the number with the least characteristic so that its characteristic is the same as the other's.
