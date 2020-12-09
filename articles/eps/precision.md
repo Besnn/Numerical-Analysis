@@ -49,7 +49,7 @@ Let **(B, m, A)** be a triple such that:
 * **m** is a non negative whole number;
 * **A** is either `Trunc` or `Round,`  
 
-then this triple defines the finite arithmetic on Rational Numbers in a given system, **B** acting as the base and **m** as the length of mantissa. `Trunc/Round` denote the mode of approximation.
+then this triple defines the finite arithmetic in a given system, **B** acting as the base and **m** as the length of mantissa. `Trunc/Round` denote the mode of approximation.
 ## Equality
 Due to lack of precision, the concept of **equality** is not the same in finite arithmetic as it is with real numbers:  
 ![equ](https://quicklatex.com/cache3/7a/ql_79bbfc0dd9681010ae5c79dfaca07c7a_l3.png)   
