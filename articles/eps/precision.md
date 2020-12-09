@@ -25,9 +25,9 @@ The quantity on the right hand side is often refered to as *machine epsilon*.
 When performing operations on floating-point numbers, computers use **specialized registers** to hold temporary values. These register have more than the usual `m` bits the machine uses to store numbers in memory. This is to minimize any eventual errors.
 ## Floating-Point Operations
 When performing operations on floating-point numbers, the result may not be a floating-point number. Hence by definition in finite arithmetic:  
-⊚ denotes operation ◌ in floating-point arithmetic  
+**⊚ denotes operation ◌ in floating-point arithmetic  
 `e.g` x ⊕ y := fl(fl(x) + fl(y))  
-x ⊚ y := fl(fl(x) ◌ fl(y))  
+x ⊚ y := fl(fl(x) ◌ fl(y))**  
 
 ### Sum
 1. Rewrite the number with the least characteristic so that its characteristic is the same as the other's.
