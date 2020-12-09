@@ -78,3 +78,7 @@ For **x1 ⊕ x2** or **x1 ⊖ x2**:
 ![sum](https://quicklatex.com/cache3/75/ql_507f16a707663c36dea529b3e66db275_l3.png)
 #### Note
 Notice that the expression dictates that there exist arguments such that `x1 + x2 ~ 0`. This implies the relative error is be greatly amplified.
+### Loss of Significance (a.k.a. Numerical or Catastrophic Cancellation)
+> Loss of significative figures caused by substraction of numbers similar in value.  
+
+![example](https://quicklatex.com/cache3/46/ql_809b76402385d64aabbf9fab85fad446_l3.png)
