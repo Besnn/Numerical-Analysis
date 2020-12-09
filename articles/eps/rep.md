@@ -12,7 +12,7 @@ Let the number of bits available for storing a number be `m`.
 If we are storing signed integers, then the leftmost bit is used to express the sign. Which leaves `m-1` bits to store magnitude.
 
 The maximum number we can store in `m` bits is `2^(m-1) - 1` for signed and `2^m - 1` for unsigned integers.  
-Attempting to store a *m*-bit long number in `m-1` bits will result in an overflow, and the number will be stored as `[number] mod [max_value]`.
+Attempting to store a *m*-bit long number in `m-1` bits will result in an overflow, and the number will be wrapped as `[number] mod [max_value]`. Overflows are usually undefined behaviour.
 
 If the number to be stored is a real number, the machine representation may not reflect the real *(pun?)* value of the number.  
 The standard for representing real numbers in binary is specified by *IEEE754* and for 32-bit and 64-bit spaces is as follows:  
