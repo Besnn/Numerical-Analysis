@@ -26,8 +26,9 @@ When performing operations on floating-point numbers, computers use **specialize
 ## Floating-Point Operations
 When performing operations on floating-point numbers, the result may not be a floating-point number. Hence by definition in finite arithmetic:
 ```lua
--- [◌] denotes operation ◌ in floating-point arithmetic
-x [◌] y := fl(fl(x) ◌ fl(y))
+-- ⊚ denotes operation ◌ in floating-point arithmetic
+-- e.g x ⊕ y := fl(fl(x) + fl(y))
+x ⊚ y := fl(fl(x) ◌ fl(y))
 ```
 ### Sum
 1. Rewrite the number with the least characteristic so that its characteristic is the same as the other's.
@@ -41,7 +42,7 @@ x [◌] y := fl(fl(x) ◌ fl(y))
 Let **S** be a set of *rational numbers* equipped with an operation `o`. Then:
 * Generally, **associativity** does not hold.
 * **Distributivity** does not hold either.
-* **Commutativity** holds: `a + b = b + a`  
+* **Commutativity** holds: `a ⊚ b = b ⊚ a`  
 
 Finite arithmetic operations on floating-point numbers are one such commutative magma.  
 
@@ -66,7 +67,7 @@ relative_error = |x - fl(x)|/|x| = |x - x(1 + ϵ)|/|x| = |xϵ|/|x| = |ϵ|
 ```
 With that in mind, we can calculate the error in a given operation.  
 #### Product
-For `x1 [●] x2`:  
+For `x1 ⊗ x2`:  
 
 ![product](https://quicklatex.com/cache3/1e/ql_a6ab36d90fb4802838c258f6831b7b1e_l3.png)
 #### Division
