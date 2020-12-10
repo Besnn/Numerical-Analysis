@@ -12,4 +12,5 @@ Notes et cetera
 	> [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html) *(this too)*  
 3. Linear Systems:  
   3.1 [Conditioning and Stability](articles/lin/cond.md)  
-  3.2 [Norms](articles/lin/norms.md)
+  3.2 [Norms](articles/lin/norms.md)  
+  3.3 [Condition Number](articles/lin/k.md)  
