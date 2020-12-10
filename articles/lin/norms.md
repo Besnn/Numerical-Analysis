@@ -28,6 +28,10 @@ Common matrix norms:
 * Maximum Norm *(p = q = ∞)*  
 
 In general:  
-```lua
-Lp(A) := sup{Lp(Ax)/Lp(x)}(x != 0)
+```python
+Lp(A) := sup(Lp(Ax)/Lp(x), x != 0)
+```
+#### Spectral Radius
+```python
+ρ(A) := max(eigenvalues(A))
 ```
