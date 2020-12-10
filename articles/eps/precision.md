@@ -46,7 +46,7 @@ Finite arithmetic operations on floating-point numbers are one such commutative 
 
 Let **(B, m, A)** be a triple such that:
 * **B** is a positive whole number;
-* **m** is a non negative whole number;
+* **m** is a nonnegative whole number;
 * **A** is either `Trunc` or `Round,`  
 
 then this triple defines the finite arithmetic in a given system, **B** acting as the base and **m** as the length of mantissa. `Trunc/Round` denote the mode of approximation.
