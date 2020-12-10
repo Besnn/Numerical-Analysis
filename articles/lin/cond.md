@@ -15,3 +15,4 @@ then the *absolute condition* number of our system is `10^10`, which is a great 
 ## Stability
 > A stable algorithm is an algorithm that avoids small errors summing up to a big error.  
 > For every input, the result has an accuracy not much worse than the accuracy with which the single steps are done.
+![e](https://quicklatex.com/cache3/d1/ql_6b4705f7c916e87df7518abc440404d1_l3.png)
