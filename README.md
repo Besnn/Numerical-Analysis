@@ -13,4 +13,4 @@ Notes et cetera
 3. Linear Systems:  
   3.1 [Conditioning and Stability](articles/lin/cond.md)  
   3.2 [Norms](articles/lin/norms.md)  
-  3.3 [Condition Number](articles/lin/k.md)  
+  3.3 [Conditioning of a Linear System](articles/lin/k.md)  
