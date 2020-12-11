@@ -36,4 +36,4 @@ write s
 end
 ```
 ### Terminating Condition (Criterio di arresto)
-To ensure an algorithm terminates, the number of iterations can be limited to a certain number. This is especially useful for inefficient algorithms *(think `n!` complexity or even polynomial)*
+To ensure an algorithm terminates, the number of iterations can be limited to a certain number. This is especially useful for inefficient algorithms *(think `n!` complexity or even polynomial)*.
