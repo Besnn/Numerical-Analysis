@@ -52,7 +52,7 @@ Let **(B, m, A)** be a triple such that:
 then this triple defines the finite arithmetic in a given system, **B** acting as the base and **m** as the length of mantissa. `Trunc/Round` denote the mode of approximation.
 ## Equality
 Due to lack of precision, the concept of **equality** is not the same in finite arithmetic as it is with real numbers:  
-![equ](https://quicklatex.com/cache3/a0/ql_7f6bc8969095df2dc4e6d6066da158a0_l3.png)   
+![equ](https://quicklatex.com/cache3/fd/ql_0ed90b6e60fd15bb9ade12a1ad97dbfd_l3.png)   
 where `ε` is the *tolerance*, which depends on *machine precision* `β^(1-m)`.
 ## Considerations
 The floating of a number can be expressed in terms of the real number as:  
