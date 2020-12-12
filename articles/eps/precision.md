@@ -9,6 +9,7 @@ In case the *mantissa* consists of `m` bits and we need `m+1` bits, precision is
 * **Absolute Error**  
 ![ea](https://quicklatex.com/cache3/9a/ql_3ed0f78b02494a69c82ca7e129c4589a_l3.png)
 * **Relative Error**  
+
 ![er](https://quicklatex.com/cache3/7c/ql_19af28485314e259d81b2c99ec497f7c_l3.png)  
 ### Notes
 The relative and absolute error can be expressed in terms of each other as:
