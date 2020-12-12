@@ -17,7 +17,7 @@ absolute_error/abs(x) -- relative error
 relative_error*abs(x) -- absolute error
 ```
 The relative error is influenced by the *mantissa* and not by the exponent, while the absolute error by the *order of magnitude* (characteristic).
-There exist upper bounds for both errors:  
+There exist upper bounds for precision both for truncation and rounding:  
 
 ![bound](https://quicklatex.com/cache3/1e/ql_1ef9a053628f1f016f95dfc326c7171e_l3.png)  
 The quantity on the right hand side is often refered to as *machine epsilon*.  
@@ -52,7 +52,7 @@ Let **(B, m, A)** be a triple such that:
 then this triple defines the finite arithmetic in a given system, **B** acting as the base and **m** as the length of mantissa. `Trunc/Round` denote the mode of approximation.
 ## Equality
 Due to lack of precision, the concept of **equality** is not the same in finite arithmetic as it is with real numbers:  
-![equ](https://quicklatex.com/cache3/7a/ql_79bbfc0dd9681010ae5c79dfaca07c7a_l3.png)   
+![equ](https://quicklatex.com/cache3/a0/ql_7f6bc8969095df2dc4e6d6066da158a0_l3.png)   
 where `ε` is the *tolerance*, which depends on *machine precision* `β^(1-m)`.
 ## Considerations
 The floating of a number can be expressed in terms of the real number as:  
