@@ -10,7 +10,7 @@ In case the *mantissa* consists of `m` bits and we need `m+1` bits, precision is
 ![ea](https://quicklatex.com/cache3/9a/ql_3ed0f78b02494a69c82ca7e129c4589a_l3.png)
 * **Relative Error**  
 
->![er](https://quicklatex.com/cache3/7c/ql_19af28485314e259d81b2c99ec497f7c_l3.png)  
+![er](https://quicklatex.com/cache3/7c/ql_19af28485314e259d81b2c99ec497f7c_l3.png)  
 ### Notes
 The relative and absolute error can be expressed in terms of each other as:
 ```lua
@@ -66,16 +66,14 @@ relative_error = |x - fl(x)|/|x| = |x - x(1 + ϵ)|/|x| = |xϵ|/|x| = |ϵ|
 -- so |ϵ| is surely less than or equal to machine epsilon.
 ```
 With that in mind, we can calculate the error in a given operation.  
-### Product
-For **x1 ⊗ x2**:  
+![circ]()  
+### Product 
 
 ![product](https://quicklatex.com/cache3/1e/ql_a6ab36d90fb4802838c258f6831b7b1e_l3.png)
-### Division
-For **x1 ⊘ x2**:  
+### Division 
 
 ![division](https://quicklatex.com/cache3/fe/ql_702c598930ed43df3cafd83b87e3f0fe_l3.png)
 ### Sum
-For **x1 ⊕ x2** or **x1 ⊖ x2**:
 
 ![sum](https://quicklatex.com/cache3/75/ql_507f16a707663c36dea529b3e66db275_l3.png)
 #### Note
@@ -83,4 +81,4 @@ Notice that the expression dictates that there exist arguments such that `x1 + x
 ### Loss of Significance (a.k.a. Numerical or Catastrophic Cancellation)
 > Loss of significative figures caused by substraction of numbers similar in value.  
 
-![example](https://quicklatex.com/cache3/46/ql_809b76402385d64aabbf9fab85fad446_l3.png)
+![example](https://quicklatex.com/cache3/70/ql_7f17530aa2dbebe9b9bc21b0c32c5d70_l3.png)
