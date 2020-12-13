@@ -1,6 +1,6 @@
 ## Conditioning
 >A well-conditioned problem is a problem where a small change of the input cannot lead to a big change of the output.  
->A problem that is ill-conditioned if it is not well-conditioned.
+>A problem is ill-conditioned if it is not well-conditioned.
 ### Conditioning of a linear system
 ![ill](/img/ill.png)  
 A small change of `2e-5` in the input led to a change of `2e5` in the output.  
