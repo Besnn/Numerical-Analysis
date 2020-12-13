@@ -7,4 +7,4 @@ $$x\geq \frac{||b||}{||A||}=\left({\frac{||A||}{||b||}\right)^{-1}$$
 $$A\delta x = \delta b \implies ||A||\cdot||\delta x|| \geq ||A\delta x|| = ||\delta b||$$
 Let $K(A)$ be the condition number of matrix $A$. Then:\\
 $$\frac{||\delta x||}{||x||} \leq \frac{||A^{-1}\cdot||\delta b||}{||b||}||A||=\frac{||\delta b||}{||b||}||A||\cdot||A^{-1}||$$
-$$\underbrace{\frac{||\delta x||}{||x||}}_{e_r \text{of input}}=\underbrace{\frac{||\delta b||}{||b||}}_{e_r \text{of output}}\underbrace{||A||\cdot||A^{-1}||}_{K(A)}$$
+$$\underbrace{\frac{||\delta x||}{||x||}}_{e_r \text{of output}}\leq\underbrace{\frac{||\delta b||}{||b||}}_{e_r \text{of input}}\underbrace{||A||\cdot||A^{-1}||}_{K(A)}$$
