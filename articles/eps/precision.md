@@ -82,4 +82,4 @@ Notice that the expression dictates that there exist arguments such that `x1 + x
 ### Loss of Significance (a.k.a. Numerical or Catastrophic Cancellation)
 > Loss of significative figures caused by substraction of numbers similar in value.  
 
-![example](/img/ill.png)
+![example](/img/canc.png)
