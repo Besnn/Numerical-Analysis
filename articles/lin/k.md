@@ -6,4 +6,4 @@ Disturbances on `x` lead to disturbances on `b`.
 A(x + δx) = b + δb
 ```  
 #### Relative Error
-![re](/img/k.png)
+![re](/img/ka.png)
