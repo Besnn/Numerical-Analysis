@@ -15,7 +15,7 @@ Common (vector) norms are:
 
 The general form for a p-norm is:  
 
-![pn](https://quicklatex.com/cache3/97/ql_4e7ea26d61c4a75e9c65d3a843739897_l3.png)
+![pn](/img/lp.png)
 ## Matrix Norm  
 In addition to the properties of vector norms, square matrix norms satisfy one more:  
 `L(AB) -leq L(A)L(B)`
