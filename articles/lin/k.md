@@ -45,5 +45,5 @@ K(A) = ||A^-1||*||A|| -geq ||A^-1 * A|| = ||I|| := 1
 * [Does the value of the determinant affect the conditioning of a matrix?](https://scicomp.stackexchange.com/questions/1329/does-a-tiny-determinant-imply-ill-conditioning-of-a-matrix)  
 **TLDR:** No, the determinant does not influence `K(A)`, and it can be shown by example that neither does the size (think identity matrix; although they usually correlate).  
 * Calculating `K(A)` is generally costly *(because of `A^-1`)*.
-* Making a rough approximation, on the other hand, is less expensive *(think calculating [relative K(A)](https://github.com/Besnn/Numerical-Analysis/blob/main/articles/lin/cond.md#conditioning-of-a-linear-system))*.  
+* Making a rough approximation, on the other hand, is less expensive *(think calculating [absolute K(A)](https://github.com/Besnn/Numerical-Analysis/blob/main/articles/lin/cond.md#conditioning-of-a-linear-system))*.  
 
