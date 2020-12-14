@@ -15,7 +15,7 @@ Common (vector) norms are:
 
 The general form for a p-norm is:  
 ![p-norm](/img/lp.png)
-### Graphs of different p-norms  
+### Unit Graphs of different p-norms  
 <img src='/img/l0.png' width='256'></img>
 <img src='/img/l½.png' width='256'></img>
 <img src='/img/l1.png' width='256'></img>
