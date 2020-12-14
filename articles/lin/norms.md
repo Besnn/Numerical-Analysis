@@ -14,14 +14,14 @@ Common (vector) norms are:
 * Maximum `L_inf(•) = max(|•|)`  
 
 The general form for a p-norm is:  
-![p-norm](/img/lp.png)
+![p-norm](/img/norms/p-norm.png)
 ### Unit Graphs of different p-norms  
-<img src='/img/l0.png' width='256'></img>
-<img src='/img/l½.png' width='256'></img>
-<img src='/img/l1.png' width='256'></img>
-<img src='/img/l2.png' width='256'></img>
-<img src='/img/l4.png' width='256'></img>
-<img src='/img/L∞.png' width='256'></img>  
+<img src='/img/norms/L0.png' width='256'></img>
+<img src='/img/norms/L½.png' width='256'></img>
+<img src='/img/norms/L1.png' width='256'></img>
+<img src='/img/norms/L2.png' width='256'></img>
+<img src='/img/norms/L4.png' width='256'></img>
+<img src='/img/norms/L∞.png' width='256'></img>  
 ```python
 # Note that L0 is not a 'true' norm. It does not satisfy scalability. Additionally, it has no pth-root:
     L0(x) = sum(x1^0 + x2^0 + ... + xn^0)
