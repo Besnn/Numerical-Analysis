@@ -9,7 +9,6 @@ In case the *mantissa* consists of `m` bits and we need `m+1` bits, precision is
 * **Absolute Error**  
 ![ea](/img/ea.png)
 * **Relative Error**  
-
 ![er](/img/er.png)  
 ### Notes
 The relative and absolute error can be expressed in terms of each other as:
