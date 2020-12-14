@@ -35,7 +35,7 @@ In addition to the properties of vector norms, square matrix norms satisfy one m
 `L(AB) -leq L(A)L(B)`
 However matrix norms are not limited to square matrices in any way.  
 Common matrix norms:
-* Frobenius Norm *(generalization of L2 over matrices)* `LF(•) = sqrt(trace(A*A))`  
+* Frobenius Norm *(generalization of L2 over matrices)* `LF(•) = sqrt(trace(A†A))`  
 * Spectral Norm *(square root of largest eigenvalue of A squared)* `L2(•) = sqrt(max(λ(A*A^T)))` 
 * Maximum Sum over Rows Norm *(matrix p,q-norm with q = ∞)* `L1(•)`
 * Maximum Sum over Columns Norms *(same as above but with p = ∞)* `L_inf(•)`
