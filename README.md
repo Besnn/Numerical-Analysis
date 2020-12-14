@@ -1,5 +1,5 @@
 # Numerical Analysis
-*Light & Dark mode compatible*  
+*Dark mode friendly - Light mode Compatible*  
 [](https://Marginally-follows-Elementi-di-Calcolo-Numerico:-Metodi-e-Algoritmi.com)
 ## Table Of Contents
 1. Algorithms:  
