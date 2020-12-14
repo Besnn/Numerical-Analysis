@@ -1,8 +1,8 @@
 ## Representation of Numbers
 ### Integers
-> ![rappr](/img/precision/rappr.png)
+> ![rappr](/img/rappr/rappr.png)
 ### Real Numbers (normalized form)
-> ![rappr2](/img/precision/rappr2.png) 
+> ![rappr2](/img/rappr/rappr2.png) 
 
 The string of **a**s is called the `mantissa`, while **b** is the `characteristic`.
 #### Note
