@@ -14,8 +14,14 @@ Common (vector) norms are:
 * Maximum `L_inf(•) = max(|•|)`  
 
 The general form for a p-norm is:  
-
-![pn](/img/lp.png)
+![p-norm](/img/lp.png)
+### Graphs of different p-norms  
+<img src='/img/l0.png' width='256'></img>
+<img src='/img/l½.png' width='256'></img>
+<img src='/img/l1.png' width='256'></img>
+<img src='/img/l2.png' width='256'></img>
+<img src='/img/l4.png' width='256'></img>
+<img src='/img/L∞.png' width='256'></img>
 ## Matrix Norm  
 In addition to the properties of vector norms, square matrix norms satisfy one more:  
 `L(AB) -leq L(A)L(B)`
