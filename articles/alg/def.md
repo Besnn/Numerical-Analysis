@@ -21,8 +21,8 @@ read n, a, x
 set p = 1
 set s = a[0]
 for i in range(1..n):
-    set p = x*p -- 1 multiplication
-    set s = s + a[i]*p -- 1 multiplication and 1 addition
+    set p = x*p  " 1 multiplication "
+    set s = s + a[i]*p " 1 multiplication and 1 addition "
 write s
 end
 ```
@@ -31,7 +31,7 @@ So how does Horner's Method differ? It performs one multiplication less, which f
 read n, a, x
 set s = a[n]
 for i in range(n-1, 0):
-    set s = s*x + a[i] -- 1 multiplication and 1 addition
+    set s = s*x + a[i] " 1 multiplication and 1 addition "
 write s
 end
 ```
