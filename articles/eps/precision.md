@@ -13,8 +13,8 @@ In case the *mantissa* consists of `m` bits and we need `m+1` bits, precision is
 ### Notes
 The relative and absolute error can be expressed in terms of each other as:
 ```lua
-absolute_error/abs(x) -- relative error
-relative_error*abs(x) -- absolute error
+absolute_error/abs(x) " relative error "
+relative_error*abs(x) " absolute error "
 ```
 The relative error is influenced by the *mantissa* and not by the exponent, while the absolute error by the *order of magnitude* (characteristic).
 There exist upper bounds for precision both for truncation and rounding:  
@@ -59,10 +59,10 @@ where `ε` is the *tolerance*, which depends on *machine precision* `β^(1-m)`.
 The floating of a number can be expressed in terms of the real number as:  
 ```lua
 fl(x) = x + δ = x(1 + ϵ)
--- this yields:
+" this yields: "
 relative_error = |x - fl(x)|/|x| = |x - x(1 + ϵ)|/|x| = |xϵ|/|x| = |ϵ|
--- relative error is less than or equal to machine precision by definition
--- so |ϵ| is surely less than or equal to machine epsilon.
+""" relative error is less than or equal to machine precision by definition
+    so |ϵ| is surely less than or equal to machine epsilon. """
 ```
 With that in mind, we can calculate the error in a given operation.  
 
