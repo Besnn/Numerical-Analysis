@@ -22,13 +22,13 @@ The general form for a p-norm is:
 <img src='/img/l2.png' width='256'></img>
 <img src='/img/l4.png' width='256'></img>
 <img src='/img/L∞.png' width='256'></img>  
-```lua
--- Note that L0 is not a 'true' norm. It does not satisfy scalability. Additionally, it has no pth-root:
+```python
+# Note that L0 is not a 'true' norm. It does not satisfy scalability. Additionally, it has no pth-root:
     L0(x) = sum(x1^0 + x2^0 + ... + xn^0)
--- That is the number of nonzero elements in vector x.
-    let v = [1 1]
+# That is the number of nonzero elements in vector x.
+    v = [1 1]
     L0(2*v) = 2 -neq 2*L0(v) = 4
--- In general, any p-norm with p less than 1 is not considered a norm.
+# In general, any p-norm with p less than 1 is not considered a norm.
 ```
 ## Matrix Norm  
 In addition to the properties of vector norms, square matrix norms satisfy one more:  
