@@ -1,4 +1,4 @@
-# Calcolo-Numerico
+# Numerical Analysis
 Notes et cetera
 ## Table Of Contents
 1. Algorithms:  
