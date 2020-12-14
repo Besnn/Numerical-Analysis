@@ -1,6 +1,4 @@
 # Numerical Analysis
-Notes et cetera  
-
 *Light & Dark mode compatible*
 ## Table Of Contents
 1. Algorithms:  
