@@ -1,5 +1,7 @@
 # Numerical Analysis
-Notes et cetera
+Notes et cetera  
+
+*Light- & Dark-mode compatible*
 ## Table Of Contents
 1. Algorithms:  
   1.1 [Definition and Horner's Method](articles/alg/def.md)  
