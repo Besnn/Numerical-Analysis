@@ -35,5 +35,5 @@ for i in range(n-1, 0):
 write s
 end
 ```
-### Terminating Condition (Criterio di arresto)
+### Terminating Condition
 To ensure an algorithm terminates, the number of iterations can be limited to a certain number. This is especially useful for inefficient algorithms *(think `n!` complexity or even polynomial)*.
