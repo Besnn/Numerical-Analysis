@@ -2,7 +2,7 @@
 >A well-conditioned problem is a problem where a small change of the input cannot lead to a big change of the output.  
 >A problem is ill-conditioned if it is not well-conditioned.
 ### Conditioning of a linear system
-![ill](/img/ill.png)  
+![ill](/img/cond/ill.png)  
 A small change of `2e-5` in the input led to a change of `2e5` in the output.  
 Moreover
 ```lua
@@ -16,4 +16,4 @@ then the *absolute condition* number of our system is `10^10`, which is a great 
 > A stable algorithm is an algorithm that avoids small errors summing up to a big error.  
 > For every input, the result has an accuracy not much worse than the accuracy with which the single steps are done.  
 
-![e](/img/e.png)
+![e](/img/cond/e.png)
