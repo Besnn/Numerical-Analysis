@@ -43,7 +43,7 @@ Common matrix norms:
 
 In general:  
 ```python
-Lp(A) := sup(Lp(Ax)/Lp(x), x != 0)
+Lp(A) := sup(Lp(Ax)/Lp(x), x != 0) = max(Lp(Ax)) with Lp(x)=1
 ```
 #### Spectral Radius
 ```python
