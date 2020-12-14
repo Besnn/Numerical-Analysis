@@ -30,6 +30,7 @@ for n=2:20
 end
 ```
 Starting from the *12th iteration*, you should get something like this `Warning: Matrix is close to singular or badly scaled. Results may be inaccurate.`; This means that the matrix is ill-conditioned and the condition number has a large value *(1.5619e16 for n=12; 2.4944e18 for n=20)*.  
+`Rcond` in **MATLAB** is the reciprocal condition number: the lower on the `[0:1]` interval it is, the *'iller'* the conditioning.  
 #### Another Example
 From [a previous example](https://github.com/Besnn/Numerical-Analysis/blob/main/articles/lin/cond.md#conditioning-of-a-linear-system) we get the following matrices:  
 
