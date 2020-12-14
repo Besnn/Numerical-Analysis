@@ -23,12 +23,12 @@ The general form for a p-norm is:
 <img src='/img/norms/L4.png' width='256'></img>
 <img src='/img/norms/L∞.png' width='256'></img>  
 ```python
-# Note that L0 is not a 'true' norm. It does not satisfy scalability. Additionally, it has no pth-root:
+""" Note that L0 is not a 'true' norm. It does not satisfy scalability. Additionally, it has no pth-root: """
     L0(x) = sum(x1^0 + x2^0 + ... + xn^0)
-# That is the number of nonzero elements in vector x.
+""" That is the number of nonzero elements in vector x. """
     v = [1 1]
     L0(2*v) = 2 -neq 2*L0(v) = 4
-# In general, any p-norm with p less than 1 is not considered a norm.
+""" In general, any p-norm with p less than 1 is not considered a norm. """
 ```
 ## Matrix Norm  
 In addition to the properties of vector norms, square matrix norms satisfy one more:  
@@ -43,10 +43,10 @@ Common matrix norms:
 
 In general:  
 ```python
-Lp(A) := sup(Lp(Ax)/Lp(x), x != 0) = max(Lp(Ax)) with Lp(x)=1
+Lp(A) := sup(Lp(Ax)/Lp(x)) with x not 0 = max(Lp(Ax)) with Lp(x)=1
 ```
 #### Spectral Radius
 ```python
-ρ(A) := max(|eigenvalues(A)|) # -leq ||A||
-# ||A|| being a given norm
+ρ(A) := max(|eigenvalues(A)|) """ -leq ||A|| 
+ ||A|| being a given norm """
 ```
