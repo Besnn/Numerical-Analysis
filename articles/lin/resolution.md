@@ -2,7 +2,7 @@
 Given a linear system `Ax=b` and `A` square and nonsingular, the value of `x` is unique. More specifically,  
 ```python
 x = A^-1 * b
-# and by Cramer's Rule
+" and by Cramer's Rule "
 x[i] = det(A[i])/det(A)
 ```
 The problem with this algorithm is that it is very costly computationally to calculate determinants *(factorial complexity if using 
