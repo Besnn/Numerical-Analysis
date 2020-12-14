@@ -15,4 +15,4 @@ There are 2 types of *numerical methods* for resolving a given linear system:
 *Direct Methods* are more suited to **dense** matrices of **minor** order.  
 *Iterative Methods* are more suited to **sparse** but **vast** matrices.  
 #### Random Tip
-When possible, use '\` instead of `inv()` in **MATLAB**. It is both more efficient and accurate.  
+When possible, use `\` and `/` *(left and right division respectively)* instead of `inv()` in **MATLAB**. They are both more efficient and accurate compared to inversion.  
