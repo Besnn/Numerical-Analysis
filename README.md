@@ -1,6 +1,6 @@
 # Numerical Analysis
 *Light & Dark mode compatible*  
-_Marginally follows **Elementi di Calcolo Numerico: Metodi e Algoritmi**_
+[](https://Marginally-follows-Elementi-di-Calcolo-Numerico:-Metodi-e-Algoritmi.com)
 ## Table Of Contents
 1. Algorithms:  
   1.1 [Definition and Horner's Method](articles/alg/def.md)  
