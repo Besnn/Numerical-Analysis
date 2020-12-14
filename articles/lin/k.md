@@ -14,4 +14,4 @@ A(x + δx) = b + δb
 
 ### General Case
 Disturbances on both matrix `A` and vector `b`  
-As seen in [up](#relative-error)
+
