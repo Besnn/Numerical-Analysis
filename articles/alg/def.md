@@ -26,7 +26,7 @@ for i in range(1..n):
 write s
 end
 ```
-So how does Horner's Method differ? It performs one multiplication less, which for long polynomials can yield huge savings.
+So how does Horner's Method differ? It performs one multiplication less, which for higher degree polynomials can yield huge savings.
 ```lua
 read n, a, x
 set s = a[n]
