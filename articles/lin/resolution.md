@@ -18,6 +18,9 @@ There are 2 types of *numerical methods* for resolving a given linear system:
 When possible, use `\` and `/` *(left and right division respectively)* instead of `inv()` in **MATLAB**. They are both more efficient and accurate compared to inversion.  
 ## Gaussian Elimination
 ```python
+# Ax = b
+# A is m×n, x is size n and b is size m
+# since pivots are in a diagonal, n in the range should be min(m, n)
 for i in range(n):
     if A[i][i] == 0.0:
         raise ZeroDivisionError
@@ -27,5 +30,6 @@ for i in range(n):
         
         for k in range(n+1):
             A[j][k] = A[j][k] - ratio * A[i][k]
+        b[j] = b[j] - ratio * b[i]
 
 ```
