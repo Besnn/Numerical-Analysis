@@ -71,3 +71,5 @@ Then:   det(A) = diag(R) times 1/c
 Moreover, let A(k) be the principal minor of A of order k.
 If det(A(k)) is nonzero for all k then "Gaussian Elimination" is applicable.
 ```
+## Gaussian Elimination in finite precision
+
