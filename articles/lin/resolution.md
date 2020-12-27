@@ -58,4 +58,16 @@ Given 2 rows labeled α and β, exchange of rows can be performed as follows:
 Analogous for columns
 Useful when leading pivot is zero (null)
 ```
+## Applicability and Determinants
+```applescript
+Given the following postulates:
+> swapping two rows multiplies the determinant by −1,
+> multiplying a row by a nonzero scalar multiplies the determinant by the same scalar,
+> adding to one row a scalar multiple of another does not change the determinant;
+Let R be the row echelon form for matrix A.
+Let c be the coefficient by which the determinant is multiplied according to the postulates.
+Then:   det(A) = diag(R) times 1/c
 
+Moreover, let A(k) be the principal minor of A of order k.
+If det(A(k)) is nonzero for all k then "Gaussian Elimination" is applicable.
+```
