@@ -37,8 +37,8 @@ However matrix norms are not limited to square matrices in any way.
 Common matrix norms:
 * Frobenius Norm *(generalization of L2 over matrices)* `LF(•) = sqrt(trace(A*A^-1))`  
 * Spectral Norm *(square root of largest eigenvalue of A squared)* `L2(•) = sqrt(max(λ(A*A^T)))` 
-* Maximum Sum over Rows Norm *(matrix p,q-norm with q = ∞)* `L1(•)`
-* Maximum Sum over Columns Norms *(same as above but with p = ∞)* `L_inf(•)`
+* Maximum Absolute Sum over Rows Norm *(matrix p,q-norm with q = ∞)* `L1(•)`
+* Maximum Absolute Sum over Columns Norm *(same as above but with p = ∞)* `L_inf(•)`
 * Maximum Norm *(p = q = ∞)*  
 
 In general:  
