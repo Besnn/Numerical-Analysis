@@ -16,4 +16,4 @@
   3.2 [Norms](articles/lin/norms.md)  
   3.3 [Conditioning of a Linear System](articles/lin/k.md)  
   3.4 [Gaussian Elimination](articles/lin/resolution.md)  
-  3.5 [Jacobi & Gauss-Seidel Method](articles/resolution2.md)  
+  3.5 [Jacobi & Gauss-Seidel Method](articles/lin/resolution2.md)  
