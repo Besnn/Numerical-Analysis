@@ -15,4 +15,4 @@
   3.1 [Conditioning and Stability](articles/lin/cond.md)  
   3.2 [Norms](articles/lin/norms.md)  
   3.3 [Conditioning of a Linear System](articles/lin/k.md)  
-  3.4 [Resolution of Linear Systems](articles/lin/resolution.md)  
+  3.4 [Gaussian Elimination](articles/lin/resolution.md)  
