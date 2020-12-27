@@ -71,5 +71,14 @@ Then:   det(A) = diag(R) times 1/c
 Moreover, let A(k) be the principal minor of A of order k.
 If det(A(k)) is nonzero for all k then "Gaussian Elimination" is applicable.
 ```
-## Gaussian Elimination in finite precision
-
+## Instability and Pivoting
+![gauss_ins](/img/resolution/gauss-ins.png)  
+### Partial and Complete Pivoting
+```applescript
+Swapping rows such that the pivot is the maximum element
+in that particular column is called "Partial Pivoting".    
+This approach tries to mitigate division by small values,
+which is inaccurate in finite-precision relative to the field of real numbers.
+Sometimes it is necessary to utilize "Complete Pivoting",
+which exchanges columns too.
+```
