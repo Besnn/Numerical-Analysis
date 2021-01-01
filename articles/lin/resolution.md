@@ -43,7 +43,7 @@ if A[n][n] == 0:
     raise ZeroDivisionError
 x[n] = b[n]/A[n][n]
 for i in range(n-1, 1):
-    x[i] = (b - sum([ x[k]A[i][k] for k in range(i+1, n)])
+    x[i] = 1/a[i][i] * (b - sum([ x[k]A[i][k] for k in range(i+1, n)])
 
 ```
 
