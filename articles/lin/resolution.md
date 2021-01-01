@@ -40,7 +40,7 @@ for i in range(min(m,n)):
 ```python
 """ Backward Substitution """
 if A[n][n] == 0:
-    raise ValueError
+    raise ZeroDivisionError
 x[n] = b[n]/A[n][n]
 for i in range(n-1, 1):
     x[i] = (b - sum([ x[k]A[i][k] for k in range(i+1,n)])
