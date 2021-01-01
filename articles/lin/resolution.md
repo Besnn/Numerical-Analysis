@@ -43,7 +43,7 @@ if A[n][n] == 0:
     raise ZeroDivisionError
 x[n] = b[n]/A[n][n]
 for i in range(n-1, 1):
-    x[i] = (b - sum([ x[k]A[i][k] for k in range(i+1,n)])
+    x[i] = (b - sum([ x[k]A[i][k] for k in range(i+1, n)])
 
 ```
 
@@ -66,7 +66,7 @@ Given the following postulates:
 > adding to one row a scalar multiple of another does not change the determinant;
 Let R be the row echelon form for matrix A.
 Let c be the coefficient by which the determinant is multiplied according to the postulates.
-Then:   det(A) = diag(R) times 1/c
+Then:   det(A) = 1/c * product(diag(R))
 
 Moreover, let A(k) be the principal minor of A of order k.
 If det(A(k)) is nonzero for all k then "Gaussian Elimination" is applicable.
