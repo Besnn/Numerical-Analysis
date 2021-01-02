@@ -31,16 +31,6 @@ Then:
 a[i][i] * x[i]⁽ᵏ⁺¹⁾ = (b - sum([ x[k]⁽ᵏ⁾A[i][k] for k in range(i-1)])
                          - sum([ x[k]⁽ᵏ⁾A[i][k] for k in range(i+1, n)]))
 ```
-can be rewritten as
-```typescript
-Dx⁽ᵏ⁺¹⁾ = b - Lx⁽ᵏ⁾ - Ux⁽ᵏ⁾
+can be rewritten as  
 
-or
-
-x⁽ᵏ⁺¹⁾ = D \ (b - Lx⁽ᵏ⁾ - Ux⁽ᵏ⁾) if using MATLAB or some other dumb language
-
-or even
-
-Dx⁽ᵏ⁺¹⁾ = b - Lx⁽ᵏ⁾ - Ux⁽ᵏ⁾ => (D + L)x = b - Ux⁽ᵏ⁾
-x⁽ᵏ⁺¹⁾ =  (D + L)⁻¹(b - Ux⁽ᵏ⁾)
-```
+![dlu](/img/resolution/dlu.png)  
