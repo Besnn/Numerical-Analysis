@@ -1,4 +1,22 @@
 ### Essence of Iterative Methods
 Iterative methods converge to a correct *(approximate)* solution of a linear system from a starting vector. That is:  
-> The method generates a sequence of vectors {xₖ} 
-such that the limit for `x tends to infinity` of `{xₖ}` is the correct solution (`x`).
+> The method generates a sequence of vectors {`x`⁽ᵏ⁾} 
+such that the limit for `x tends to infinity` of {`x`⁽ᵏ⁾} is the correct solution (`x`).  
+
+A particular iteration of the sequence is denoted as `x`⁽ⁱ⁾
+### The Jacobi ⅋ Gauss-Seidel Method
+#### Jacobi Method
+For an upper triangular matrix, the solution can be expressed as:  
+```python
+x[i]⁽ᵏ⁺¹⁾ = 1/a[i][i] * (b - sum([ x[k]⁽ᵏ⁾A[i][k] for k in range(i+1, n)]))
+```
+This can be generalized for a given matrix as:
+```python
+x[i]⁽ᵏ⁺¹⁾ = 1/a[i][i] * (b
+            - sum([ x[k]⁽ᵏ⁾A[i][k] for k in range(i-1)]) - sum([ x[k]⁽ᵏ⁾A[i][k] for k in range(i+1, n)]))
+```
+#### Gauss-Seidel Method
+The Gauss-Seidel Method is a modification of the Jacobi Method.  
+The difference between the two methods is that new values of {`x`⁽ᵏ⁾} are used as soon as they become available.  
+For example, the new values of `x₁` can be used in the calculation of `x₂`, the new values of the previous two  
+can be used to calculate `x₃` and so on.
