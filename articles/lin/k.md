@@ -1,6 +1,6 @@
 ## Conditioning of a Linear System
 Let `A` be a nonsingular matrix and `Ax = b` the corresponding system.  
-Let `δb` and `δA` be called the *residual* and instead let *error* be used for `δx`.  
+Let `δb` be called the *residual* and instead let *error* be used for `δx`.  
 ### Simple Case
 Disturbances on `x` lead to disturbances on `b`.  
 ```vim
