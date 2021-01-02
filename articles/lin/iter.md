@@ -11,5 +11,5 @@ It is obvious that since `Δ⁽ᵏ⁾ = (M⁻¹N)ᵏΔ⁽⁰⁾` and the LHS con
 An iterative method converges:
 * IFF `M⁻¹N` converges;  
 * IFF `ρ(M⁻¹N) := max(eigenvalues(M⁻¹N)) < 1`;
-* `||M⁻¹N|| < 1` (sufficient[†](articles/ling/iter.md#notes)  
+* `||M⁻¹N|| < 1` (sufficient[†](https://github.com/Besnn/Numerical-Analysis/blob/main/articles/lin/iter.md))  
 #### Notes
