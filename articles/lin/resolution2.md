@@ -33,4 +33,4 @@ a[i][i] * x[i]⁽ᵏ⁺¹⁾ = (b - sum([ x[k]⁽ᵏ⁾A[i][k] for k in range(i-
 ```
 can be rewritten as  
 
-![dlu](/img/resolution/dlu_.png)  
+![dlu](/img/resolution/dlu.png)  
