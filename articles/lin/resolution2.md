@@ -34,3 +34,10 @@ a[i][i] * x[i]⁽ᵏ⁺¹⁾ = (b - sum([ x[k]⁽ᵏ⁾A[i][k] for k in range(i-
 can be rewritten as  
 
 ![dlu](/img/resolution/dlu.png)  
+
+#### General Case for the Iterative Method
+![iter](/img/resolution/iter.png)  
+[]()  
+The iterative method can be expressed as:  
+
+![equ1](/img/resolution/equ1.png)  
