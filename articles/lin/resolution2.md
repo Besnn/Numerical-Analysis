@@ -41,3 +41,12 @@ can be rewritten as
 The iterative method can be expressed as:  
 
 ![equ1](/img/resolution/equ1.png)  
+
+### Theorem
+> Let {`x`⁽ᵏ⁾} be a sequence of vectors and `A = M - N` a square matrix of size `n`.  
+Then the sequence converges to the correct value **only and only if** `M⁻¹N` converges to `zero`.  
+#### Proof
+Let `Δ⁽ᵏ⁾ = x⁽ᵏ⁾ - x`. Then `x⁽ᵏ⁾ tends to x iff Δ⁽ᵏ⁾ tends to 0`.  
+Let `Δ⁽⁰⁾ = x⁽⁰⁾ - x`.  
+Then `Δ⁽ᵏ⁾ = x⁽ᵏ⁾ - x = M⁻¹Nx⁽ᵏ⁻¹⁾ + M⁻¹b - M⁻¹Nx - M⁻¹b = (M⁻¹N)Δ⁽ᵏ⁻¹⁾ = (M⁻¹N)²Δ⁽ᵏ⁻²⁾ = ... = (M⁻¹N)ᵏΔ⁽⁰⁾`.  
+It is obvious that since `Δ⁽ᵏ⁾ = (M⁻¹N)ᵏΔ⁽⁰⁾` and the LHS converges to `zero`, `(M⁻¹N)ᵏ` converges to `zero` (`Δ⁽⁰⁾` constant).  
