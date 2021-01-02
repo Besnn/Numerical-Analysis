@@ -20,3 +20,5 @@
   3.6 [Iterative Methods](articles/lin/iter.md)  
 4. Nonlinear Equations:  
   4.1 [Bisection Method](articles/nonlin/bisectia.md)  
+  4.2 [Newton's Method](articles/nonlin/newt.md)  
+  
