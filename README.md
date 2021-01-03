@@ -18,8 +18,7 @@
   3.4 [Gaussian Elimination](articles/lin/resolution.md)  
   3.5 [Jacobi & Gauss-Seidel Method](articles/lin/resolution2.md)  
   3.6 [Iterative Methods](articles/lin/iter.md)  
-4. Nonlinear Equations:  
-  > **Warning**: Tomophilia Galore
+4. Nonlinear Equations:   
   4.1 [Bisection Method](articles/nonlin/bisectia.md)  
   4.2 [Newton's Method](articles/nonlin/newt.md)  
   
