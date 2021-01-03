@@ -23,6 +23,8 @@ for i in range(MAX_ITER):
 ```  
 A less expensive version would be using only `f'(x₀)` in the calculations. 
 
+## Secant Method
+
 
 #### Notes
 †: Such a number is called a **Fourier Extreme**.
