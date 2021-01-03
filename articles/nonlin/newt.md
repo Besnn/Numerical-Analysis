@@ -10,11 +10,18 @@ Let `f(x)` be twice differentiable in a certain interval `[a, b]`.
 Let `sgn(f'(x))` and `sgn(f''(x))` be constant.  
 Let there be `x₀` in `[a, b]` such that `f(x₀) * f''(x₀) > 0` [†](#notes). Then the method converges if starting from `x₀`.  
 
-## Algorithm
+### Algorithm
 ```python
+df = derivative(f)
+
 for i in range(MAX_ITER):
-  
-```
+  if df(x) == 0:
+    raise ZeroDivisionError
+  x = x - f(x)/df(x)
+  if f(x) < eps:
+    break
+```  
+A less expensive version would be using only `f'(x₀)` in the calculations. 
 
 
 #### Notes
