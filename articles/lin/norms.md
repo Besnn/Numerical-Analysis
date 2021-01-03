@@ -10,7 +10,7 @@ If only the first two points are satisfied, then the function is a *vector semin
 Common (vector) norms are:
 * Absolute Value `|•|` (for scalars only)  
 * Euclidian Norm `L2(•) = length(x, y, z, ...)`  
-* Manhatan Norm `L1(•) = |x| + |y| + [z] + ...`  
+* Manhatan Norm `L1(•) = |x| + |y| + |z| + ...`  
 * Maximum `L_inf(•) = max(|•|)`  
 
 The general form for a p-norm is:  
