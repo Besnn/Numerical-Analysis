@@ -19,6 +19,6 @@
   3.5 [Jacobi & Gauss-Seidel Method](articles/lin/resolution2.md)  
   3.6 [Iterative Methods](articles/lin/iter.md)  
 4. Nonlinear Equations:   
-  4.1 [Root-finding Methods](articles/nonlin/newt.md) *(tomophile galore)*  
+  4.1 [Root-finding Methods](articles/nonlin/newt.md) *(tomophilic galore)*  
   4.2 [Rate of Convergence](articles/nonlin/conv.md)   
   
