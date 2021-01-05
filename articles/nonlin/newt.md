@@ -16,9 +16,9 @@ do {
 The usual termination conditions for this algorithm are `|f(c)| < eps` and `|ub - lb| < eps`, but `iterations -le MAX_ITER` is acceptable as a fallback.  
 ### Error
 ```haskell
-Δc -le |b - a|/2^n     -- n being the number of iterations
+Δc -le |b - a|/2^(n+1)     -- n being the number of iterations
 -- which yields
-n -le log₂(|b - a|/Δc)
+n -le log₂(|b - a|/Δc) - 1
 ```  
 The above bounds can be used to estimate the number of iterations for a given tolerance.  
 #### Minor Note
