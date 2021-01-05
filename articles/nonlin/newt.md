@@ -23,8 +23,18 @@ for i in range(MAX_ITER):
 ```  
 A less expensive version would be using only `f'(x₀)` in the calculations. 
 
-## Secant Method
-
+### Secant Method
+Similar to **Newton's Method** but uses a secant line instead of a tangent line *(finite difference)*.  
+A secant line can be expressed as `Δy/Δx = f(x)-f(x₀)/(x - x₀)`. Knowing that we can interpolate a single iteration as:  
+```
+xᵢ₊₂ = xᵢ₊₁ - f(xᵢ₊₁)(xᵢ₊₁ - xᵢ)/(f(xᵢ₊₁) - f(xᵢ))
+```
+### Termination Condition
+For these methods most used are:  
+* `|xᵢ₊₁ - xᵢ| -le eps`;  
+* `|xᵢ₊₁ - xᵢ|/|xᵢ| -le eps`;  
+* `f(xᵢ) -le eps`;  
+* `|bᵢ - aᵢ| -le eps` *(bisection only)*.
 
 #### Notes
 †: Such a number is called a **Fourier Extreme**.
