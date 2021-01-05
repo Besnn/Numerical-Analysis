@@ -21,5 +21,5 @@
 4. Nonlinear Equations:   
   4.1 [Bisection Method](articles/nonlin/bisectia.md)  
   4.2 [Newton's Method](articles/nonlin/newt.md)  
-  4.3 [Rate of Convergence](articles/nonlin/newt.md)  
+  4.3 [Rate of Convergence](articles/nonlin/conv.md)  
   
