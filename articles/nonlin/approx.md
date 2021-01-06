@@ -12,7 +12,7 @@ The error is handled according to needs:
 Some functions are more suited than others when it comes to approximating values from datasets.  
 These are split into classes according to properties of interest *(ease of use, generality etc.)*.  
 
-### Polinomials
+### Polynomials
 The most simple functions to use and implement.
 ### Rational Functions
 Wider range of coverage than polinomials.
