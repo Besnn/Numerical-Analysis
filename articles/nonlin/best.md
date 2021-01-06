@@ -18,6 +18,4 @@ By this metric, the more appropriate polynomial would be the one to yield `E` sm
 In *Least Squares Fitting*, the best fit polynomial is the one satisfying the criterion of the *L1-Norm*.  
 
 ### Line of Best Fit
-![let](/img/approx/let.png)  
-
 ![line](/img/approx/line.png)  
