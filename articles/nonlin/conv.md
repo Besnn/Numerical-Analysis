@@ -7,7 +7,7 @@ A sequence is said to have an order of convergence `p` if the following holds tr
 ![conv_order](/img/resolution/conv_order.png)  
 
 For `p = 1`, the order of convergence is **linear**; `p = 2` **quadratic** and so on.  
-The constant `μ` is called *asymptotic error constant*.  
+The constant `μ` is called *asymptotic error constant* *[†](/articles/nonlin/conv.md#note)*.  
 
 ### Bisection Method
 The **Method of Bisection** has a linear rate of convergence.  
@@ -19,3 +19,6 @@ The **Method of Bisection** has a linear rate of convergence.
 
 
 ![conv_newts](/img/resolution/conv_newt.png)  
+
+### Note
+†: Say we have two methods on the same order of convergence. Then the one with the lower *asymptotic error constant* converges faster. 
