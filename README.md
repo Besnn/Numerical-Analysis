@@ -22,7 +22,7 @@
   4.1 [Root-finding Methods](articles/nonlin/newt.md) *(tomophilic galore)*  
   4.2 [Rate of Convergence](articles/nonlin/conv.md)   
   4.3 [Function Approximation](articles/nonlin/approx.md)  
-  4.4 [Line of Best Fit](articles/nonlin/best.md)  
+  4.4 [Best Fitting](articles/nonlin/best.md)  
   
   
   
