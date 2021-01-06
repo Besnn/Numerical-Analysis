@@ -17,5 +17,7 @@ The **Method of Bisection** has a linear rate of convergence.
 ### Newton's Method
 > [Proof of Convergence for Newton's Method](https://www.wikiwand.com/en/Newton%27s_method#/Proof_of_quadratic_convergence_for_Newton's_iterative_method)  
 
-**Newton's Method**, on the other hand, has a quadratic rate of convergence.  
+**Newton's Method**, on the other hand, has a quadratic rate of convergence:  
 
+
+![conv_newts](/img/resolution/conv_newt.png)  
