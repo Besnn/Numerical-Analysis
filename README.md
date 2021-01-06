@@ -18,7 +18,7 @@
   3.4 [Gaussian Elimination](articles/lin/resolution.md)  
   3.5 [Jacobi & Gauss-Seidel Method](articles/lin/resolution2.md)  
   3.6 [Iterative Methods](articles/lin/iter.md)  
-4. Nonlinear Equations:   
+4. Approximation:   
   4.1 [Root-finding Methods](articles/nonlin/newt.md) *(tomophilic galore)*  
   4.2 [Rate of Convergence](articles/nonlin/conv.md)   
   4.3 [Function Approximation](articles/nonlin/approx.md)  
