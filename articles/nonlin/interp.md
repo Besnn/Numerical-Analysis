@@ -15,6 +15,7 @@ Let `A` be a [*Vandermonde Matrix*](https://www.wikiwand.com/en/Vandermonde_matr
 let it be nonsingular IFF for xᵢ ≠ xⱼ if i ≠ j : det(A) = ∏ ∏(i>j) of xᵢ - xⱼ
 ```  
 Then the interpolating polynomial of degree `n` is unique for `n+1` values of `xᵢ`.  
+**In other words**: Nonsingularity of Vandermonde Matrix implies polynomial existence.  
 
 #### Possible Obstacles
 * `A` is ill-conditioned;  
