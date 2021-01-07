@@ -35,7 +35,7 @@ can be rewritten as
 
 ![dlu](/img/resolution/dlu.png)  
 
-**Quick Note**: `D⁻¹(U + L)` would be the *iteration matrix*.  
+**Quick Note**: `D⁻¹(U + L)` and `(D + L)⁻¹U` would be the *iteration matrices*.  
 #### General Case for the Iterative Method
 ![iter](/img/resolution/iter.png)  
 []()
