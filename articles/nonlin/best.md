@@ -30,4 +30,10 @@ Equaling to zero *(for the minimum/minima)* should yield the following system of
 The following linear system is equivalent to the above:  
 
 ![syseq2](/img/approx/syseq2.png)  
-and is easily solvable.  
+and is easily solvable. 
+
+### Best Fit Polynomials
+The procedure is similar for finding other best fit polynomials. The matrix form can be generalized as:  
+
+![monster](/img/approx/monster.png)  
+
