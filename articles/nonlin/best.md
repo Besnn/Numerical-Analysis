@@ -19,3 +19,7 @@ In *Least Squares Fitting*, the best fit polynomial is the one satisfying the cr
 
 ### Line of Best Fit
 ![line](/img/approx/line.png)  
+
+### Satisfying the Criterion
+![diff_line](/img/approx/diff_line.png)  
+tODO Change bmonster above ^%P
