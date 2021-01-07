@@ -1,5 +1,6 @@
 # Numerical Analysis
-<img src="/img/logo.png" width="whatever" height="30"></img>  
+<img src="/img/CALCOLONUMERICO.png" width="whatever" height="25"></img>  
+
 *Dark mode friendly - Light mode Compatible*  
 [](https://Marginally-follows-Elementi-di-Calcolo-Numerico:-Metodi-e-Algoritmi.com)
 ## Table Of Contents
