@@ -1,6 +1,6 @@
 # Numerical Analysis
-<img src="/img/CALCOLONUMERICO.png" width="whatever" height="25"></img>
-<img src="/img/stolen.png" width="whatever" height="25"></img>
+<img src="/img/CALCOLONUMERICO.png" width="whatever" height="15"></img>
+<img src="/img/stolen.png" width="whatever" height="15"></img>
 
 
 *Dark mode friendly - Light mode Compatible*  
