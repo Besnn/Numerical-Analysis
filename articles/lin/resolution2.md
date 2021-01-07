@@ -37,7 +37,7 @@ can be rewritten as
 
 #### General Case for the Iterative Method
 ![iter](/img/resolution/iter.png)  
-[]()  
+**Quick Note**: `D⁻¹(U + L)` would be the *iteration matrix*.  
 The iterative method can be expressed as:  
 
 ![equ1](/img/resolution/equ1.png)  
