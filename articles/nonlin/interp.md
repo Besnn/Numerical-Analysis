@@ -7,7 +7,7 @@ We want to define `g ∈ [a, b]; g(x) = sum([ αᵢ * φᵢ for φᵢ in V]); g(
 If the class of functions is chosen to be a polynomial, then the coefficient of the polynomial can be concluded
 by solving the [appropriate linear system](/articles/nonlin/best.md#best-fit-polynomials).  
 Generally, the higher the order of the polynomial,
-the better the approximation. You don't want to overdo it though *(computational cost increases linearly for polynomials)*.   
+the better the approximation.  
 
 ### Existence and Uniqueness
 Let `A` be a [*Vandermonde Matrix*](https://www.wikiwand.com/en/Vandermonde_matrix).
