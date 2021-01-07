@@ -15,7 +15,7 @@ By this metric, the more appropriate polynomial would be the one to yield `E` sm
 * `min(L2(E))` *(Euclidean Norm of `E`)*;  
 * `min(L∞(E))` *(Maximum Component of `E`)*.  
 
-In *Least Squares Fitting*, the best fit polynomial is the one satisfying the criterion of the *L1-Norm*.  
+In *Least Squares Fitting*, the best fit polynomial is the one satisfying the criterion of the *L2-Norm*.  
 
 ### Line of Best Fit
 ![line](/img/approx/line.png)  
