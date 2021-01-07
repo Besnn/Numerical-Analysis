@@ -25,3 +25,5 @@ In *Least Squares Fitting*, the best fit polynomial is the one satisfying the cr
 
 Equaling to zero *(for the minimum/minima)* should yield the following system of equations:  
 > ![syseq](/img/approx/syseq.png)
+
+### Matricial Equivalence
