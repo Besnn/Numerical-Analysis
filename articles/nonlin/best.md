@@ -37,3 +37,4 @@ The procedure is similar for finding other best fit polynomials. The matrix form
 
 ![monster](/img/approx/monster.png)  
 
+It being a **positive-definite matrix**, the solution is unique.  
