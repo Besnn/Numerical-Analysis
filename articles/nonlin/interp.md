@@ -14,9 +14,11 @@ Let `A` be a [*Vandermonde Matrix*](https://www.wikiwand.com/en/Vandermonde_matr
 ```applescript
 let it be nonsingular IFF for xᵢ ≠ xⱼ if i ≠ j : det(A) = ∏ ∏(i>j) of xᵢ - xⱼ
 ```  
-Then the interpolating polynomial of degree `n` is unique.  
+Then the interpolating polynomial of degree `n` is unique for `n+1` values of `xᵢ`.  
 
-### 
+#### Possible Obstacles
+* `A` is ill-conditioned;  
+* `xᵢ` and `xⱼ` can be equal in finite arithmetic.  
 
 ### Notes
 †: A set of functions are linearly dependent if there is a vector `α ≠ 0` such that `sum(α * fᵢ(x)) = 0`.
