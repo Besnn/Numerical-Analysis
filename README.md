@@ -1,5 +1,7 @@
 # Numerical Analysis
-<img src="/img/CALCOLONUMERICO.png" width="whatever" height="25"></img>  
+<img src="/img/CALCOLONUMERICO.png" width="whatever" height="15"></img>
+<img src="/img/stolen.png" width="whatever" height="15"></img>
+
 
 *Dark mode friendly - Light mode Compatible*  
 [](https://Marginally-follows-Elementi-di-Calcolo-Numerico:-Metodi-e-Algoritmi.com)
@@ -27,6 +29,8 @@
   4.4 [Best Fit](articles/nonlin/best.md)  
   4.5 [Interpolation](articles/nonlin/interp.md)  
   4.6 [Lagrange Polynomials](articles/nonlin/lag.md)  
+  4.7 [Newton Polynomials](articles/nonlin/?)  
+  4.8 [Divided Differences](articles/nonlin/div.md)  
   
   
   
