@@ -44,12 +44,11 @@ Let **S** be a set of *rational numbers* equipped with an operation `o`. Then:
 
 Finite arithmetic operations on floating-point numbers are one such commutative magma.  
 
-Let **(B, m, A)** be a triple such that:
-* **B** is a positive whole number;
-* **m** is a nonnegative whole number;
-* **A** is either `Trunc` or `Round,`  
+Let **(B, m, n, A)** be a quadruple such that:
+* **B**, **m** and **n** are positive whole numbers;  
+* **A** is either `Trunc` or `Round`,  
 
-then this triple defines the finite arithmetic in a given system, **B** acting as the base and **m** as the length of mantissa. `Trunc/Round` denote the mode of approximation.
+then this quadruple defines the finite arithmetic in a given system, **B** acting as the base and **m** as the length of mantissa and **n** as the characteristic. `Trunc/Round` denote the mode of approximation.
 ## Equality
 Due to lack of precision, the concept of **equality** is not the same in finite arithmetic as it is with real numbers:  
 
