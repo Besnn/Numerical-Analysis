@@ -4,7 +4,7 @@
 ### Real Numbers (normalized form)
 > ![neq](/img/rappr/neq.png) 
 
-The string of **a**s *(a0 is 0 //change later)* is called the `mantissa`, while **b** is the `characteristic`.
+The string of **a**s is called the `mantissa`, while **b** is the `characteristic`.
 #### Note
 By convention, `x = 0` has a nil mantissa and a null characteristic.
 ## Machine Representation of Numbers
