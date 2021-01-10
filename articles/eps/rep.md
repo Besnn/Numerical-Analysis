@@ -2,7 +2,7 @@
 ### Integers
 > ![rappr](/img/rappr/rappr.png)
 ### Real Numbers (normalized form)
-> ![rappr2](/img/rappr/rappr2.png) 
+> ![neq](/img/rappr/neq.png) 
 
 The string of **a**s *(a0 is 0 //change later)* is called the `mantissa`, while **b** is the `characteristic`.
 #### Note
