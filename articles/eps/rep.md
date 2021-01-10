@@ -4,7 +4,7 @@
 ### Real Numbers (normalized form)
 > ![rappr2](/img/rappr/rappr2.png) 
 
-The string of **a**s is called the `mantissa`, while **b** is the `characteristic`.
+The string of **a**s *(a0 is 0 //change later)* is called the `mantissa`, while **b** is the `characteristic`.
 #### Note
 By convention, `x = 0` has a nil mantissa and a null characteristic.
 ## Machine Representation of Numbers
@@ -21,6 +21,6 @@ The standard for representing real numbers in binary is specified by *IEEE754* a
 > [1] for sign; [11] for characteristic; [52] for mantissa for 64-bit floats
 ### Note
 Since the very first figure is implicit (and 1 by convention), we actually have 24 bits and 53 bits for storing the figures respectively for 32-bit and 64-bit.  
-**Overflow** happens when the characteristic (and by extension the exponent) of a number is not rappresentable in the given space.  
+**Overflow** happens when the characteristic (and by extension the exponent) of a number is not representable in the given space.  
 Same with **Underflow**: the characteristic is too small *(number is smaller than machine epsilon)*.  
 The mantissa usually limits the *precision*.

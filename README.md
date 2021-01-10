@@ -28,7 +28,7 @@
   4.3 [Function Approximation](articles/nonlin/approx.md)  
   4.4 [Best Fit](articles/nonlin/best.md)  
   4.5 [Interpolation](articles/nonlin/interp.md)  
-  4.6 [Lagrange Polynomials](articles/nonlin/lag.md)  
+  >4.6 [Lagrange Polynomials](articles/nonlin/lag.md)  
   4.7 [Newton Polynomials](articles/nonlin/?)  
   4.8 [Divided Differences](articles/nonlin/div.md)  
   
