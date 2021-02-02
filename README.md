@@ -1,6 +1,6 @@
 # Numerical Analysis
-<img src="https://img.shields.io/badge/calcolo-numerico-orange" width="whatever" height="15"></img>
-<img src="https://img.shields.io/badge/source-stolen-red" width="whatever" height="15"></img>
+<img src="https://img.shields.io/badge/calcolo-numerico-orange"></img>
+<img src="https://img.shields.io/badge/source-stolen-red"></img>
 
 
 *Dark mode friendly - Light mode Compatible*  
